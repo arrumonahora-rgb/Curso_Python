@@ -9,6 +9,9 @@ def principal():
     desconto=float(formulario.txtDesconto.text())
     resultado= salario-desconto
     formulario.lblResultado.setText(str(resultado))
+    formulario.lblSalario.setText(str(salario))
+    formulario.lblDesconto.setText(str(desconto))
+
     
     
     
